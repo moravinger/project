@@ -46,26 +46,41 @@
 
 //Первое домашнее задание (часть 1)
 
-const numberOfFilms = +prompt ('Сколько фильмов вы уже посмотрели?', ''); //1 домашнее задание
+// const numberOfFilms = +prompt ('Сколько фильмов вы уже посмотрели?', ''); //1 домашнее задание
 // console.log(numberOfFilms);
 
 //Первое домашнее задание (часть 2)
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    prvat: false
-};
+// const personalMovieDB = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     prvat: false
+// };
 
-//Первое домашнее задание (часть 3)
-const a = prompt ('Один из последних просмотренных фильмов?', ''),
-    b = prompt ('На сколько оцените его?', ''),
-    c = prompt ('Один из последних просмотренных фильмов?', ''),
-    d = prompt ('На сколько оцените его?', '');
+// //Первое домашнее задание (часть 3)
+// const a = prompt ('Один из последних просмотренных фильмов?', ''),
+//     b = prompt ('На сколько оцените его?', ''),
+//     c = prompt ('Один из последних просмотренных фильмов?', ''),
+//     d = prompt ('На сколько оцените его?', '');
 
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
+// personalMovieDB.movies[a] = b;
+// personalMovieDB.movies[c] = d;
 
-console.log(personalMovieDB);
+// console.log(personalMovieDB);
 
+if (4 == 4) {
+    console.log('Ok!');
+} else {
+    console.log('Error');
+}
+
+const num = 50;
+
+if (num < 49) {
+    console.log('Error');
+} else if (num > 100) {
+    console.log('Много');
+} else {
+    console.log('Ok!');
+}
