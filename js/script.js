@@ -88,20 +88,41 @@ if (4 == 4) {
 // //тернарный оператор ? уместили в одну строчку код из строк 80-86
 // (num == 50) ? console.log('Ok!') : console.log('Error'); 
 
-const num = 50;
+// const num = 50;
 
-switch (num) {
-    case 49:
-        console.log('Неверно');
-        break;
-    case 100:
-        console.log('Неверно');
-        break;
-    case 50:
-        console.log('В точку!')
-        break;
-    default:
-        console.log('Не в этот раз');
-        break;
+// switch (num) {
+//     case 49:
+//         console.log('Неверно');
+//         break;
+//     case 100:
+//         console.log('Неверно');
+//         break;
+//     case 50:
+//         console.log('В точку!')
+//         break;
+//     default:
+//         console.log('Не в этот раз');
+//         break;
+// }
+// //со строками работает точно так же
+
+let num = 50;
+
+// while (num <= 55) {
+//     console.log(num);
+//     num++;
+// }
+
+do {
+    console.log(num);
+    num++;
 }
-//со строками работает точно так же
+while (num <= 55);
+
+for (let i = 1; i < 10; i++) {
+    if (i === 6) {
+        // break; //прерывает цикл
+        continue; // пропускает 6 и начинается с 7
+    }
+    console.log(i);
+}
