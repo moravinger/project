@@ -75,12 +75,33 @@ if (4 == 4) {
     console.log('Error');
 }
 
+// const num = 50;
+
+// if (num < 49) {
+//     console.log('Error');
+// } else if (num > 100) {
+//     console.log('Много');
+// } else {
+//     console.log('Ok!');
+// }
+
+// //тернарный оператор ? уместили в одну строчку код из строк 80-86
+// (num == 50) ? console.log('Ok!') : console.log('Error'); 
+
 const num = 50;
 
-if (num < 49) {
-    console.log('Error');
-} else if (num > 100) {
-    console.log('Много');
-} else {
-    console.log('Ok!');
+switch (num) {
+    case 49:
+        console.log('Неверно');
+        break;
+    case 100:
+        console.log('Неверно');
+        break;
+    case 50:
+        console.log('В точку!')
+        break;
+    default:
+        console.log('Не в этот раз');
+        break;
 }
+//со строками работает точно так же
